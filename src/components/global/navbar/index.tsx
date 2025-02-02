@@ -14,7 +14,7 @@ import { LogoSmall } from "@/svgs/logo-small";
 import CreateAutomation from "../create-automation";
 import Search from "../search";
 import { Notifications } from "../notifications";
-import MainBreadcrumbs from "../main-bread-crumbs";
+import MainBreadcrumbs from "../bread-crumb/main-bread-crumbs";
 
 type Props = {
   slug: string;

@@ -31,13 +31,14 @@ const IntegrationCard = ({ description, icon, strategy, title }: Props) => {
         <h3 className="text-xl"> {title}</h3>
         <p className="text-[#9D9D9D] text-base ">{description}</p>
       </div>
-      {/* <Button
-        onClick={onInstaOAuth}
-        disabled={integrated?.name === strategy}
+      <Button
+        // onClick={onInstaOAuth}
+        // disabled={integrated?.name === strategy}
         className="bg-gradient-to-br text-white rounded-full text-lg from-[#3352CC] font-medium to-[#1C2D70] hover:opacity-70 transition duration-100"
       >
-        {integrated ? 'Connected' : 'Connect'}
-      </Button> */}
+        {/* {integrated ? 'Connected' : 'Connect'} */}
+        Connect
+      </Button>
     </div>
   );
 };
