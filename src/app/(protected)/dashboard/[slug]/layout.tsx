@@ -13,7 +13,7 @@ const Layout = ({ children, params }: Props) => {
       {/* sidebar */}
       <Sidebar slug={params.slug} />
       {/* navigation */}
-      <div className="lg-ml-[250px] lg;pl-10 flex flex-col overflow-auto">
+      <div className="lg:ml-[250px] lg:pl-10 flex flex-col overflow-auto">
         <Navbar slug={params.slug} />
         {children}
       </div>
